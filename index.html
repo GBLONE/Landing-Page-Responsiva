@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Bleecker Street Pizza</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-pizza-slice" id="nav_logo" style="color: #c73737;"> <strong><spam id="letrasAmarelas">Bleecker</spam> Street <spam id="letrasAmarelas">Pizza</spam></strong></i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default"> Peça Aqui
+                <!-- <i class="fa-brands fa-whatsapp"> Chama no Zap!</i> -->
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default"> Peça Aqui
+                
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O <a style="color: #c73737;">Sabor</a> 
+                    da 
+                    <spam class="span">Liberdade</spam>
+                </h1>
+                <p class="description">
+                    A Bleecker Street Pizza, localizada no charmoso West Village de Nova York,
+                    aqui combinamos o estilo italiano e "nova-iorquino", para fazer a melhor pizza de NY!
+                </p>
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Cardápio
+                    </a>
+                    
+                    <a href="tel:+1 212-924-4466" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                            
+                        </button>+1 212-924-4466
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+    
+                    <a href="https://www.instagram.com/bleeckerstreetpizza/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="https://www.facebook.com/BleeckerStreetPizza/?locale=pt_BR">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            
+            <div id="banner">
+                <img src="src/img/—Pngtree—delicious pizza creative photography_9071905.png">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cárdapio</h2>
+            <h3 class="section-subtitle">Sabores das <a style="color: #c73737;">Pizzas</a></h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" width="200" src="src/img/grandmaPizza.png" id="shape-image" class="dish-image" alt="Grandma Pizza">
+                    
+                    <h3 class="dish-title">
+                        A <spam id="letrasAmarelas">Grandma</spam> <i style="color: #c73737;">Pizza </i>
+                    </h3>
+                    <span class="dish-description">
+                        É uma pizza de estilo tradicional, de Nova York. Ela tem uma massa fina e crocante, feita com farinha de trigo. O molho de tomate é espalhado sobre a massa e, em seguida, é adicionado queijo mozzarella fresco. Por cima, são colocados pedaços de tomate fresco, alho, manjericão e azeite de oliva. É uma pizza simples, mas cheia de sabor!
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>8K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$27.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" width="200" id="shape-image" src="https://bleeckerstreetpizza.com/wp-content/uploads/2021/05/menu6-1.png" class="dish-image" alt="Pepperoni Pizza">
+                    
+                    <h3 class="dish-title">
+                        A <spam id="letrasAmarelas">Pepperoni</spam> <i style="color: #c73737;"> Pizza</i>
+                    </h3>
+                    <span class="dish-description">
+                        É uma das favoritas dos amantes de pizza. Ela é coberta com molho de tomate, queijo mozzarella e, é claro, fatias de pepperoni (um tipo de salame picante). A combinação do queijo derretido e o sabor picante do pepperoni é irresistível!
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>10K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$28.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" width="200" id="shape-image" src="https://bleeckerstreetpizza.com/wp-content/uploads/2021/05/bleecker-street-pizza-4.png" class="dish-image" alt="Nonna Maria Pie Pizza">
+                    
+                    <h3 class="dish-title">
+                        A <spam id="letrasAmarelas">Nonna Maria Pie </spam> <i style="color: #c73737;">Pizza </i>
+                    </h3>
+                    <span class="dish-description">
+                        Homenageia a tradição italiana. Ela é feita com uma massa mais grossa e fofa, semelhante a uma focaccia. O molho de tomate é espalhado sobre a massa, seguido por queijo mozzarella, alho, manjericão fresco e azeitonas pretas. É uma pizza rica em sabores e texturas.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>15K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$29.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" width="200" id="shape-image" src="src/img/vegetariana.png" class="dish-image" alt="Nonna Maria Pie Pizza">
+                    
+                    <h3 class="dish-title">
+                        A <spam id="letrasAmarelas">Garden Supreme </spam> <i style="color: #c73737;">Pizza </i>
+                    </h3>
+                    <span class="dish-description">
+                        Se você é <strong>vegetariano</strong> ou <strong>não</strong>, essa pizza é uma escolha deliciosa e saudável.
+                        Ela é uma homenagem à tradição italiana. A massa, levemente grossa e fofa, lembra a autêntica focaccia.
+                        Os ingredientes são; a mussarela, o palmito, a cebola, o tomate, o pimentão, o manjericão e o orégano. 
+                        Cada um contribui para uma experiência gastronômica completa, perfeita para quem aprecia ingredientes naturais.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        
+                        <span>3K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$28.50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="Combos">
+                <spam id="letrasAmarelas">Combos</spam>
+                +
+                <i style="color: #c73737;">Famosos</i>
+            </h2>
+    
+            <div id="dishes2">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" id="shape-image" src="src/img/unagi_Logo.gif" class="dish-image" alt="Grandma Pizza">
+                    
+                    <h3 class="dish-title">
+                        <spam id="letrasAmarelas">Especial</spam> 
+                         
+                        <i style="color: #c73737;">“Unagi”</i>
+                    </h3>
+                    <h4 class="dish-title">
+                        3x <spam id="letrasAmarelas">Grandma</spam> <i style="color: #c73737;">Pizzas</i>
+                    </h4>
+                    <span class="dish-description">
+                        Massa fina (grande) e crocante feita com farinha de trigo.
+                        Molho de tomate espalhado sobre a massa.
+                        Queijo mozzarella fresco derretido por cima.
+                        Pedaços de Tomate fresco e Alho para um sabor aromático.
+                        Manjericão para realçar o sabor e Azeite de oliva.
+                        1 Refrigerante de 2 Litros (Escolha o seu sabor favorito).
+                        1 Ingrediente Secreto: “Unagi” (Shhh, é o toque especial do Ross!).
+                        Esse Combo pode satisfazer aproximadamente 6 à 8 pessoas ou um Dinossauro.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>20K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$75.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" width="200" id="shape-image" src="src/img/centralPerk.gif" class="dish-image" alt="Grandma Pizza">
+                    
+                    <h3 class="dish-title">
+                        <spam id="letrasAmarelas">Especial</spam> 
+                        <i style="color: #c73737;">Central Perk</i>
+                    </h3>
+                    <h4 class="dish-title">
+                        
+                        2x <spam id="letrasAmarelas">Pepperoni</spam> <i style="color: #c73737;">Pizzas </i>
+                    </h4>
+                    <span class="dish-description">
+                        Massa crocante coberta com molho de tomate.
+                        Queijo mozzarella derretido por cima.
+                        Generosas fatias de pepperoni (salame picante) para o sabor irresistível.
+                        1 Refrigerante de 2 Litros (Escolha o seu sabor favorito).
+                        Talvez após comer, você sinta vontade de beber Café...
+                        Esse Combo pode satisfazer aproximadamente 3 à 4 pessoas!
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>17K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$56.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <!-- https://bleeckerstreetpizza.com/wp-content/uploads/2021/05/bleecker-street-pizza-4.png -->
+                    <img height="200" id="shape-image" src="src/img/especial do Joey.gif" class="dish-image" alt="Grandma Pizza">
+                    
+                    <h3 class="dish-title">
+                        <spam id="letrasAmarelas">Especial</spam> 
+                        do 
+                        <i style="color: #c73737;">Joey</i>
+                    </h3>
+                    <h4 class="dish-title">
+                        2x <spam id="letrasAmarelas">Nonna Maria Pie</spam> <i style="color: #c73737;">Pizzas</i>
+                    </h4>
+                    <span class="dish-description">
+                        Massa (grande) grossa  e fofa. Mussarela Fresca base da pizza perfeita.
+                        Molho Marinara Caseiro um molho rico e saboroso que combina tomates frescos, alho e ervas.
+                        Parmesão um toque de salgado e umami.
+                        Manjericão Fresco aromáticos que adicionam frescor à combinação.
+                        1 Cerveja de 1 Litro e 1 Refrigerante de 2 Litros (Escolha o seu favorito).
+                        “Vem sempre aqui?❤️” (Shhh, é o toque especial do Joey!)
+                        Esse Combo pode satisfazer aproximadamente de 4 à 6 pessoas ou o Joey!
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>30K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$64.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img height="200" id="shape-image" src="src/img/reginaphallenge.gif" class="dish-image" alt="Grandma Pizza">
+                    
+                    <h3 class="dish-title">
+                        <spam id="letrasAmarelas">Especial</spam> 
+                        da 
+                        <i style="color: #c73737;">Regina Phalange</i>
+                    </h3>
+                    <h4 class="dish-title">
+                        2x <spam id="letrasAmarelas">Garden Supreme</spam> <i style="color: #c73737;">Pizzas</i>
+                    </h4>
+                    <span class="dish-description">
+                        A massa é uma fusão entre a autêntica focaccia e a ousadia da Regina.
+                        Os ingredientes são; a Mussarela da Regina, o Palmito Místico, a Cebola Enigmática, o Tomate Divertido, o Pimentão Excêntrico, o Manjericão Encantado e o Orégano Improvável. 
+                        Com certeza esse Especial fará com que tenha um sintoma, cantar por 2hrs a música "Smelly Cat, smelly cat, what are they feeding you?", de Phoebe Buffay. 🍕🎶
+                        Se o sintomas Persistir, procure a Dr. Regina Phalange!
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>10K+</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$57.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/img/chef.png" id="testimonials_chef" alt="chef">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    Feedbacks dos Clientes 
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedbacks">
+                        <img height="100" src="src/img/avatarJoey.gif" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <strong>@Ator_JoeyTribbiani</strong>
+                                <span style="color: #e9a209;">
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Muito bom, mas meu especial tinha que vim com mais pizza do Joey, E MAIS CERVEJA!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedbacks">
+                        <img height="100" src="src/img/avatarRachel.gif" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                <strong>@RachelGreen_Estilista</strong>
+                                <span style="color: #e9a209;">
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i> 
+                                </span>
+                            </p>
+                            <p>
+                                "A pizza é ótima, mas a maioria dos meus amigos tem um Combo e eu não... 
+                                E eu como o mesmo tanto que eles, menos o mesmo tanto que o Joey come."
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais Feedbacks
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/img/waveCerto.svg" alt="footer">
+
+        <div id="footer_items">
+
+            <div class="social-media-buttons">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/bleeckerstreetpizza/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/BleeckerStreetPizza/?locale=pt_BR">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+            <span id="copyright">
+                &copy GBL
+                2024
+            </span>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

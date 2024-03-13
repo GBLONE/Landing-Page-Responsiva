@@ -1,0 +1,122 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#dishes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+#dishes2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+#Combos {
+    font-size: 2.1875rem;
+    margin-top: 34px;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.dish-heart {
+    position: absolute;
+    background-color: #e9a209;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    color: #c73737;
+    box-shadow: 0px 0px 4px 0px #434343;
+    width: 70px; /*largura*/
+    height: 70px; /* Altura */
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.dish-image {
+    border-radius: 20% 20% 20% 20%
+}
+
+#shape-image {
+    border-radius: 20% 20% 20% 20%;
+    background-image: #ffe8b4;
+    background-color: #ffe8b4;
+}
+
+.dish-description {
+    color: #434343;
+    text-align: center;
+}
+
+.dish-rate i{
+    color: #e9a209
+}
+
+.dish-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1170px){
+    #menu {
+        min-height: 100%;
+        min-width: 100%;
+        padding: 0px;
+    }
+
+    #dishes,
+    #dishes2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .dish {
+        width: calc(40% - 12px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #menu {
+        min-height: 100%;
+        min-width: 100%;
+        padding: 0px;
+    }
+
+    .dish{
+        width: 90%;
+    }
+
+    #menu {
+        text-align: center;
+    }
+}
+
